@@ -1,0 +1,179 @@
+section{
+    padding: 50px 0;
+}
+.box{
+    min-height: 350px;
+}
+
+.main_area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#draggable {
+    width: 100px; 
+    height: 100px; 
+    padding: 0.5em; 
+    float: left; 
+    margin: 10px 10px 10px 0;
+    cursor: pointer;
+}
+
+#droppable { 
+    width: 150px; 
+    height: 150px; 
+    padding: 0.5em; 
+    float: left; 
+    margin: 10px; 
+}
+
+#sortable1, #sortable2 {
+    border: 1px solid #eee;
+    width: 142px;
+    min-height: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+    float: left;
+    margin-right: 10px;
+}
+
+#sortable1 li, #sortable2 li {
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    font-size: 1.2em;
+    width: 120px;
+}
+
+/* #progressbar {
+    margin-top: 20px;
+}
+
+.progress-label {
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+.ui-dialog-titlebar-close {
+    display: none;
+} */
+
+
+/* color animation */
+label {
+    display: inline-block;
+    width: 5em;
+};
+
+.toggler1 { 
+    width: 500px; 
+    height: 200px; 
+    position: relative; 
+}
+
+#buttons {
+    margin-top: 10px;
+    padding: .5em 1em; 
+    text-decoration: none; 
+}
+
+#effect1 { 
+    width: 240px;
+    min-height: 170px;
+    padding: 0.4em; 
+    position: relative; 
+    background: #fff; 
+}
+
+#effect1 h3 { 
+    margin: 0; 
+    padding: 0.4em; 
+    text-align: center; 
+}
+
+/* effect */
+.toggler { 
+    width: 500px; 
+    height: 200px; 
+    position: relative; 
+}
+#button {
+    margin-top: 20px;
+    padding: .5em 1em; 
+    text-decoration: none; 
+}
+#effect { 
+    width: 240px; 
+    min-height: 170px; 
+    padding: 0.4em; 
+    position: relative;
+}
+#effect h3 { 
+    margin: 0; 
+    padding: 0.4em; 
+    text-align: center; 
+}
+.ui-effects-transfer { 
+    border: 2px dotted gray; 
+}
+
+
+/* plugin page no.1 */
+
+/* counter plugin */
+.counter{
+    margin: 0px 10px;
+    font-size: 25px;
+}
+
+small{
+    font-size: 25px;
+}
+
+/* slick slider */
+
+.slide{
+    background-color: aquamarine;
+    min-height: 350px;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.box1, .box3, .box5{
+    background-color: red;
+}
+
+.box2, .box4, .box6{
+    background: green;
+}
+
+.box{
+    padding: 10px;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+.c_isotope{
+    min-width: 90px;
+    margin: 5px !important;
+    padding: 5px;
+    background-color: aquamarine;
+}
+
+.c_isotope h3{
+    font-size: 18px;
+}
+
+.c_isotope p{
+    margin-bottom: 0;
+}
